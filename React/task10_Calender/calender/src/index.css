@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.App{
+  display: flex;
+  width: 1000px;
+  height: 100vh;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  color: #726b17;
+  
+}
+.App h1{
+  border: 1px solid;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+.sevenColGrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+.today-btn{
+  margin: 2px;
+  width: 100px;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #3799f5;
+}
+.today-btn:hover{
+  cursor: pointer;
+ 
+}
+

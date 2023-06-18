@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row>*{
+    margin: 0;
+    padding: 0;
+}
+#clear{
+    display: none;
+}
+.countdown{
+    gap: 40px;
+}
+#resume,#restart{
+    display: none; 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <section id="slider">
+        <div class="slider">
+            <div class="heading"><h1>Image Slider</h1></div>
+            <div class="slide-container">
+                <div class="slide fade">
+                    <div class="slide-img">
+                        <img src="./Assets/Images/img1.jpeg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>Image 1</h3>
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="slide-img">
+                        <img src="./Assets/Images/img2.jpeg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>Image 2</h3>
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="slide-img">
+                        <img src="./Assets/Images/img3.jpeg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>Image 3</h3>
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="slide-img">
+                        <img src="./Assets/Images/img4.jpeg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>Image 4</h3>
+                    </div>
+                </div>
+                <button  class="prev" onclick="prevSlide(-1)"><</button>
+                <button  class="next" onclick="nextSlide(1)">></button>  
+            </div>
+            <div class="dot-container">
+               <span class="dot" onclick="showDot(1)"></span>
+               <span class="dot" onclick="showDot(2)"></span>
+               <span class="dot" onclick="showDot(3)"></span>
+               <span class="dot" onclick="showDot(4)"></span>
+            </div>
+            <div class="auto">
+                <button onclick="play()">Play</button>
+                <button onclick="stopSlides()">Pause</button>
+            </div>  
+        </div>
+
+    </section>
+    
+
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.Page{
+    position: relative;
+}
+.Nav-container{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    left: -300px !important;
+    top: -2px;
+    width:170px ;
+}

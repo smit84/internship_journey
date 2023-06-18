@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="countdown-container container pt-5 ">
+            <div class="countdown row align-items-center justify-content-center text-center border border-dark">
+                <div class="heading col-sm-8  ">
+                    <h1>STOPWATCH</h1>
+                </div>
+                <div class="clock col-sm-8 ">
+                    <div class="row">
+                        <div class="hours col-sm-3 border border-dark ">
+                            <div class="hours-num border-bottom border-dark">
+                                <h2 id="hours-num-v">00</h2>
+                            </div>
+                            <div class="hours-title">
+                                <h3>Hours</h3>
+                            </div>
+                        </div>
+                        <div class="minutes col-sm-3 border border-dark">
+                            <div class="minutes-num border-bottom border-dark">
+                                <h2 id="minutes-num-v">00</h2>
+                            </div>
+                            <div class="minutes-title">
+                                <h3>Minutes</h3>
+                            </div>
+                        </div>
+                        <div class="sec col-sm-3 border border-dark">
+                            <div class="sec-num border-bottom border-dark">
+                                <h2 id="sec-num-v">00</h2>
+                            </div>
+                            <div class="sec-title">
+                                <h3>Seconds</h3>
+                            </div>
+                        </div>
+                        <div class="msec col-sm-3 border border-dark">
+                            <div class="msec-num border-bottom border-dark">
+                                <h2 id="msec-num-v">00</h2>
+                            </div>
+                            <div class="msec-title">
+                                <h3>C-seconds</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control col-sm-8">
+                    <div class="row justify-content-center align-items-center">
+                        
+                        <div class="start col-sm-3 ">
+                            <button id="btn-start" class="btn btn-outline-success" onclick="startTime()">START</button>
+                        </div>
+                        <div class="lap col-sm-3">
+                            <button id="btn-lap" class="btn btn-outline-primary" onclick="lapTime()">LAP</button>
+                        </div>
+                        <div class="stop col-sm-3">
+                            <button class="btn btn-outline-danger" onclick="stopTime()">STOP</button>
+                        </div>
+                        <div class="reset col-sm-3">
+                            <button class="btn btn-outline-dark" onclick="resetTime()">RESET</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-8 border border-dark mb-1">
+                    <h3 id="announce">HIT START...!</h3>
+                </div>
+                <div id="lap">
+                    
+                </div>
+                <div class="row justify-content-center mb-1" id="clear-wrapper">
+                    <button id="clear" class="btn btn-outline-danger col-sm-2" onclick="clearLap()">CLEAR LAP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./Scripts/main.js"></script>
+</body>
+</html>

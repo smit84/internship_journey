@@ -1,0 +1,65 @@
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 40px;
+    justify-content: center;
+    gap: 10px;
+}
+.table-top{
+    width: 100%;
+    display: flex;
+    padding: 0px 16px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.table-title{
+    text-transform: uppercase;
+    color: #122f41;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.styledThead{
+    background: #000000; 
+}
+.styledThead > p {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.styledCell{
+    display: flex;
+}
+.cell-p{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.dialog-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.accordian-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+ */
+ .MuiAccordionSummary-root{
+    display: block;
+ }

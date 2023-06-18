@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin:5px 100px;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 5px 0px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+li:nth-child(9n+1) + li,li:nth-child(9n+1),li:nth-child(9n+1) + li+li{
+    background: rgb(245, 51, 51);
+}
+
+li:nth-child(9n+4),li:nth-child(9n+4)+li,li:nth-child(9n+4)+li+li{
+    background: rgb(110, 110, 216);
+}
+
+li:nth-child(9n+7),li:nth-child(9n+7)+li,li:nth-child(9n+7)+li+li{
+    background: rgb(106, 245, 113);
+}
+

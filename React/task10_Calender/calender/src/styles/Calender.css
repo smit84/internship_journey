@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-spacing: 0px;
+    height: 60vh;
+    margin-bottom: 10px;
+}
+th{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+th{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+td{
+    padding: 10px;
+    font-size: 18px;
+}
+th,td{
+   
+    text-align: center;
+    border-bottom: 1px solid;
+}
+form{
+    width:100%;
+    display: flex;
+    gap: 45px;  
+}
+select{
+    width: 100%;
+    padding: 9px;
+    font-size: 20px;
+    border: 1px solid #5b4b0c;
+    border-radius: 4px;
+    text-align: center;
+}
+
+form>div{
+    width: calc(100%/4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.App{
+    width: 1000px;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.App >*{
+    width: 100%;
+}
+.title{
+    border: 1px solid;
+    text-align: center;
+    padding: 5px 0px;
+    color: #5b4b0c;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.show-today-date{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #5b4b0c;
+    padding: 10px;
+}
+.show-today-date button{
+    width: 30px;
+    color: #5b4b0c;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.access-date{
+    display: flex;
+    gap: 40px;
+}
+.btn-today-wrapper{
+    width: calc(100%/8);
+    padding: 5px;
+}
+.btn-today,.btn-submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #5b4b0c;
+    border-radius: 4px;
+}
+.active{
+    background-color: #e2cf82;
+    
+}
+.today{
+    background-color: #5b4b0c;
+    color: #ffffff;
+    border-color: #000000;
+}
+.empty-cell{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+
+
+

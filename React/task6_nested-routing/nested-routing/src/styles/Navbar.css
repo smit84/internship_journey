@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.75rem;
+    background-color:white;
+}
+img{
+    width: 10px;
+}
+
+

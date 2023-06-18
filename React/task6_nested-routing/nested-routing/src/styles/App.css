@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main{
+    display: flex;
+}
+.Firstchild{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    justify-content: center;
+    border:3px solid ;
+}
+.Child{
+    border:3px solid;
+    padding: 10px 100px;
+    margin-bottom: 10px ;
+}
+nav > *{
+    text-decoration: none;
+    color: black;
+}
+nav > *:hover{
+    background-color: rgb(158, 166, 175);
+}
+
+

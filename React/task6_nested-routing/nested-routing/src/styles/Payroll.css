@@ -1,0 +1,14 @@
+.Pay-nav{
+    position: relative;
+}
+.Pay-nav nav{
+    position :absolute;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    left: -713px;
+    top: -39px;
+    width:170px ;
+}
